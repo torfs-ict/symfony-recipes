@@ -1,0 +1,6 @@
+version: '3'
+services:
+  unoconv:
+    image: zrrrzzt/docker-unoconv-webservice
+    ports:
+      - '80:3000'

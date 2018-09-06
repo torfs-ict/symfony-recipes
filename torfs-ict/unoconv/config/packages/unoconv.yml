@@ -1,0 +1,9 @@
+eight_points_guzzle:
+  clients:
+    unoconv:
+      base_url: "http://localhost:3000"
+
+services:
+  App\Service\Unoconv:
+    arguments:
+      $client: "@eight_points_guzzle.client.unoconv"
