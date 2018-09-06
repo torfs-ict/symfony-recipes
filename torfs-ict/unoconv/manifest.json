@@ -4,6 +4,6 @@
       "EightPoints\\Bundle\\GuzzleBundle\\EightPointsGuzzleBundle": ["all"]
     },
     "docker-compose.yml": "docker-compose.yml",
-    "config/": "%CONFIG_DIR%/"
+    "config/": "%CONF_DIR%/"
   }
 }
